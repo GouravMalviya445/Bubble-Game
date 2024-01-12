@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(199, 233, 211)
+}
+
+.pannel{
+    height: 83%;
+    width: 80%;
+    background-color: #cfffe7;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #00000049;
+}
+
+.ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    padding: 0 30%;
+    color: #fff;
+    background-color: rgb(77, 128, 77);
+}
+
+.elem{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.elem h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 6px 15px;
+    background: #fff;
+    color: rgb(59, 170, 87);
+    border-radius: 5px;
+}
+
+.pbottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: calc(100% - 90px);
+    width: 100%;
+    padding: 20px;
+}
+
+.bubble{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(77, 128, 77);
+}
+
+.bubble:hover{
+    background-color: rgb(67, 112, 67);
+}
+
+#center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(54, 87, 60);
+    font-size: 45px;
+}
